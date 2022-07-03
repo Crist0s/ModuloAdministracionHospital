@@ -16,6 +16,9 @@ public class HospitalModuloAdministracion {
     public static void main(String[] args) {
 
         /* veamos que pasa */
+        
+        int numero;
+        
     }
     
 }
