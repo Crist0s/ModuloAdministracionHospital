@@ -4,6 +4,8 @@
  */
 package hospitalmoduloadministracion;
 
+
+import java.util.Scanner;
 /**
  *
  * @author Cristobal
@@ -15,10 +17,24 @@ public class HospitalModuloAdministracion {
      */
     public static void main(String[] args) {
 
-        /* veamos que pasa */
+
+        Scanner scan=new Scanner(System.in); // scanner para poder leer el input de texto
         
-        int numero;
-        
-    }
+        System.out.println("que operacion desea realizar?: "
+                + "\n" + "[1] -Eliminar "
+                + "\n" + "[2] -Registrar "
+                + "\n" + "[3] -Modificar "
+                + "\n" + "[4] -Consultar "
+        ); //menu con opciones para el administrador
     
+        System.out.println("En que Base de datos desea realizar la operacion:" 
+                + "\n" + "[1] -Enfermedades "
+                + "\n" + "[2] -Medicamentos "
+                + "\n" + "[3] -Veredas "
+                + "\n" + "[4] -Usuarios "
+                + "\n" + "[5] -Personal_Medico "
+                    
+        ); //menu con opciones para el administrador
+       
+}
 }
